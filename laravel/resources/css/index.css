@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+header {
+    position: relative;
+    top: 30px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+.p-relative {
+    position: relative;
+}
+
+.mt-6 {
+    margin-top: 4rem!important;
+}
+
+.br-20px {
+    border-radius: 20px;
+}
+
+.br-15px {
+    border-radius: 15px;
+}
+
+.brown-bg {
+    background: #927057;
+}
+
+.white-bg {
+    background: #fff;
+}
+
+.text36px,
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.weight700 {
+    font-weight: 700;
+}
+
+.text32px {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.text30px {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.text25px {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+}
+
+.text24px600 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.text24px400 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.text18px {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.text12px {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.z-index-2 {
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-black {
+    color: #000;
+}
+
+.text-yellow {
+    color: #FFEDA8;
+}
+
+.text-brown {
+    color: #927057;
+}
+
+.uline {
+    text-decoration: underline;
+}
+
+.nav .nav-item .index:hover,
+.nav .nav-item .index:focus,
+.nav .nav-item .catalog:hover,
+.nav .nav-item .catalog:focus,
+.nav .nav-item .about:hover,
+.nav .nav-item .about:focus,
+.nav .nav-item .contacts:hover,
+.nav .nav-item .contacts:focus,
+footer ul li a:hover,
+footer ul li a:focus {
+    text-decoration: underline;
+    color: #acacac;
+}
+
+
+/*Главная*/
+
+.head .phone {
+    width: 156px;
+}
+
+.head .tel {
+    margin-bottom: 0;
+}
+
+.head .busket {
+    gap: 8px;
+}
+
+.footer-bg {
+    position: absolute;
+    width: 50%;
+    height: 22rem;
+    z-index: 1;
+    background-color: #927057;
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+
+.index .header-bg {
+    position: absolute;
+    width: 50%;
+    height: 58rem;
+    z-index: 1;
+    background-color: #927057;
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+
+header .nav {
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.start-window .hello {
+    margin-top: 2rem;
+    height: 100%;
+}
+
+.start-window .arrow {
+    right: -10rem;
+}
+
+.start-window .arrow p {
+    margin-left: 2rem;
+}
+
+.about .arrow {
+    right: -24rem;
+}
+
+.about .arrow p {
+    margin-left: 2rem;
+}
+
+.new .card-title,
+.catalog .card-title {
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+.new .card-body p {
+    background: #fff;
+    border-radius: 15px;
+    margin-bottom: 0;
+}
+
+.new .new-cards {
+    gap: 3rem;
+}
+
+.about .right {
+    margin-top: 10%;
+    margin-left: -12rem;
+}
+
+.about .left .text-about {
+    width: 27rem;
+}
+
+.contacts .nav {
+    margin-left: 2.75rem;
+    margin-right: 2.75rem;
+}
+
+footer {
+    top: 15px;
+}
+
+
+/*Каталог*/
+
+.filter .dropdown button {
+    width: 16.2rem;
+    box-shadow: none;
+    border: 1px solid;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 5px;
+    color: #000;
+}
+
+.filter .dropdown button:hover,
+.filter .dropdown button:focus {
+    background: #927057;
+    color: #fff;
+}
+
+.filter .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+.filter .dropdown ul {
+    background: #fff;
+    color: #927057;
+}
+
+.filter .dropdown ul li a:focus,
+.filter .dropdown ul li a:hover {
+    background: #FFEDA8;
+    color: #000;
+}
+
+.filter .accept {
+    border-radius: 5px;
+    width: 16.2rem;
+    background: #927057;
+}
+
+.filter .accept:hover,
+.filter .accept:focus,
+.filter .design:hover,
+.filter .design:focus {
+    background: #7E624D;
+}
+
+.catalog,
+.catalog .new-cards {
+    gap: 3.125rem;
+}
+
+.catalog .card-body p {
+    margin-bottom: 0;
+}
+
+.catalog .header-bg {
+    position: absolute;
+    width: 50%;
+    height: 140.4rem;
+    z-index: 1;
+    background-color: #927057;
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+
+.pagination {
+    margin-top: 4.5rem!important;
+    gap: 3.125rem;
+    margin-bottom: 5rem!important;
+}
+
+.pagination a {
+    border-radius: 5px;
+    padding: 1rem!important;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    font-weight: 600;
+}
+
+.pagination .active {
+    border: 3px solid #000000;
+    font-weight: 700;
+}
+
+.pagination a:hover,
+.pagination a:focus {
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    font-weight: 700;
+}
+
+
+/*Товар*/
+
+.t-arrow {
+    margin-top: 5rem!important;
+    margin-left: 12rem!important;
+}
+
+.item .right .price {
+    margin-left: 3rem!important;
+    padding: 1rem!important;
+    background: #fff;
+    color: #927057;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+}
+
+.dimensions {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #fff;
+}
+
+.dimensions-list,
+.plus-and-minus {
+    gap: 15px;
+}
+
+.dimensions-list button,
+.dimensions-list button:active,
+.dimensions-list a {
+    padding: 12px 30px 12px 30px;
+    border: 1px solid #FFEDA8;
+    background: #927057;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #fff;
+}
+
+.dimensions-list button:focus,
+.dimensions-list button:hover {
+    background: #7E624D;
+}
+
+.in-busket {
+    background: #fff;
+    color: #927057;
+    border-radius: 5px;
+    width: 29.8rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.in-busket:focus-visible {
+    outline: none;
+}
+
+.tovar .header-bg {
+    position: absolute;
+    width: 50%;
+    height: 85rem;
+    z-index: 1;
+    background-color: #927057;
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+
+.dimensions-discription {
+    width: 29.8rem;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+
+/*Корзина*/
+
+.design .price {
+    width: 16rem;
+    margin-left: 5rem;
+    padding: 1.5rem 2rem;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+}
+
+.filter .design {
+    border-radius: 5px;
+    width: 18rem;
+    background: #927057;
+    padding: 1rem 2rem;
+}
+
+.busket .header-bg {
+    position: absolute;
+    width: 50%;
+    height: 143rem;
+    z-index: 1;
+    background-color: #927057;
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+
+.busket-card {
+    width: 53rem;
+    border: 1px solid #000;
+}
+
+.busket .catalog .size {
+    padding: 12px 30px 12px 30px;
+    border: 1px solid #000;
+    background: #fff;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000;
+}
+
+.busket .catalog .close-button {
+    border-radius: 100px;
+    width: 41px;
+    height: 41px;
+    background: #fff;
+}
+
+.plus-and-minus button,
+.plus-and-minus button:active,
+.plus-and-minus a {
+    padding: 12px 30px 12px 30px;
+    border: 1px solid #000;
+    background: #fff;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000;
+}
+
+.plus-and-minus button:focus,
+.plus-and-minus button:hover {
+    background: #acacac;
+}
+
+.plus-and-minus button:active {
+    background: #927057;
+}
+
+.busket .catalog .price {
+    width: 11.6rem;
+    margin-top: 2.5rem;
+    padding: 1.5rem 3rem;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+}
+
+.busket-section {
+    margin-bottom: 7rem!important;
+}
